@@ -22,7 +22,7 @@
 /*
  * Don't forget increment and decrement
  *    These are known as unary operator because they only have one operand
- *    which is the variable being updated. Everything else is known as unary operators
+ *    which is the variable being updated. Everything else is known as binary operators
  *
  * ++ (Add 1)
  * -- (Minus 1)
