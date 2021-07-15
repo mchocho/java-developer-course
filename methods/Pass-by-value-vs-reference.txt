@@ -1,0 +1,15 @@
+ * Pass-by-value
+ *   - A copy of the data is being passed
+ *   - Changes made to the copy inside the method does
+ *          not affect the original
+ *
+ * Pass-by-reference
+ *   - The address is passed in
+ *   - Any changes made to the parameter in the method affects
+ *           the argument that was passed in when the method was
+ *           called
+ *
+ * Java only supports pass by value, but when you pass a reference
+ * type variable as an argument the value that is copied into the 
+ * method is a memory address. Any changes you make inside the method's
+ * body will effect the actual object the argument was pointing to.
